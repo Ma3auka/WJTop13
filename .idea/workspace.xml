@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05a275cc-9758-4aae-bd37-b988d18c069d" name="Default Changelist" comment="" />
+    <list default="true" id="05a275cc-9758-4aae-bd37-b988d18c069d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/WJ/Top13Specific.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/WJ/Top13Specific.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/co/WJ/Top13Specific.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="549">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,6 +85,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -92,12 +99,13 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-24" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="285" />
     <option name="y" value="-8" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -171,6 +179,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -242,26 +251,11 @@
       <workItem from="1562664505253" duration="838000" />
       <workItem from="1562667358744" duration="174000" />
       <workItem from="1562668229778" duration="7949000" />
-      <workItem from="1562678022463" duration="4617000" />
+      <workItem from="1562678022463" duration="6902000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Top13Specific_Top13 - 2019.07.09 at 16h 36m 59s.xml">
-      <configuration name="Top13Specific.Top13" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Top13Specific_Top13 - 2019.07.09 at 16h 37m 35s.xml">
-      <configuration name="Top13Specific.Top13" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Top13Specific_Top13 - 2019.07.09 at 16h 37m 58s.xml">
-      <configuration name="Top13Specific.Top13" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Top13Specific_Top13 - 2019.07.09 at 16h 38m 39s.xml">
-      <configuration name="Top13Specific.Top13" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Top13Specific_Top13 - 2019.07.09 at 16h 40m 01s.xml">
-      <configuration name="Top13Specific.Top13" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Top13Specific_Top13 - 2019.07.09 at 16h 40m 27s.xml">
       <configuration name="Top13Specific.Top13" configurationId="JUnit" />
     </history-entry>
@@ -277,14 +271,30 @@
     <history-entry file="Top13Specific_Top13 - 2019.07.09 at 17h 16m 55s.xml">
       <configuration name="Top13Specific.Top13" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Top13Specific_Top13 - 2019.07.09 at 18h 07m 02s.xml">
+      <configuration name="Top13Specific.Top13" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Top13Specific_Top13 - 2019.07.09 at 18h 08m 42s.xml">
+      <configuration name="Top13Specific.Top13" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Top13Specific_Top13 - 2019.07.09 at 18h 17m 36s.xml">
+      <configuration name="Top13Specific.Top13" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Top13Specific_Top13 - 2019.07.09 at 18h 18m 30s.xml">
+      <configuration name="Top13Specific.Top13" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Top13Specific_Top13 - 2019.07.09 at 18h 20m 19s.xml">
+      <configuration name="Top13Specific.Top13" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16012000" />
+    <option name="totallyTimeSpent" value="18297000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26012793" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26012793" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -293,7 +303,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32981783" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32981783" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -359,8 +369,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/co/WJ/Top13Specific.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="549">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
