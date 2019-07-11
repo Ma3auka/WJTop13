@@ -1,7 +1,7 @@
 # WJTop13
 
-git init
-git add README.md
-git commit -m "text"
-git remote add origin https://github.com/Ma3auka/WJTop13
-git push -u origin master
+<li>git init</li>
+<li>git add README.md</li>
+<li>git commit -m "text"</li>
+<li>git remote add origin https://github.com/Ma3auka/WJTop13</li>
+<li>git push -u origin master</li>
