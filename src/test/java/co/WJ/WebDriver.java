@@ -18,6 +18,7 @@ public class WebDriver {
 
     @After
     public void KillDriver () { //Закрыть браузер, драйвер
+        if (driver != null)
         driver.close();
         driver.quit();
         System.out.println("- Kill Draiver"); //Выводим в консоль строку что двайвер убит
