@@ -3,6 +3,7 @@ package co.WJ;
 import org.junit.After;
 import org.junit.Before;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class WebDriver {
 
@@ -12,6 +13,8 @@ public class WebDriver {
     public void UpDriver () { //Запустить и открыть браузер
         System.setProperty("webdriver.chrome.driver", "/Program Files (x86)/WebDr/chromedriver.exe"); //Путь к драйверу
         driver = new ChromeDriver();
+        WebDriverWait wait = new WebDriverWait(driver, 30, 500); //Ожидание элемента
+
         driver.manage().window().maximize();
         System.out.println("- Test Start"); //Выводим в консоль строку что двайвер поднялся
     }

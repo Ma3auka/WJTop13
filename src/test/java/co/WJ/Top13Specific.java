@@ -6,6 +6,28 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.junit.After;
+import org.junit.AfterClass;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.FixMethodOrder;
+import org.junit.runner.RunWith;
+import org.junit.runners.MethodSorters;
+import org.junit.Assert;
+import org.junit.Rule;
+import org.junit.rules.TestRule;
+import org.junit.rules.TestWatcher;
+import org.junit.runner.Description;
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.NoAlertPresentException;
+import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.Platform;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 
 public class Top13Specific extends WebDriver {
@@ -13,14 +35,17 @@ public class Top13Specific extends WebDriver {
     @Test
     public void Top13() throws Exception { //Открыть ссылку и проверка на title
 
-        WebDriverWait wait = new WebDriverWait(driver, 30, 500); //Ожидание элемента
-
         driver.get("https://zales.wonderjewel.co/configurator/XC2192K");
         System.out.println("- Open url");
 
-        new Select(driver.findElement(By.id("diamond-size"))).selectByVisibleText("1 CT."); //drop-down list
-        System.out.println("- Click 1/2");
+        new Select(driver.findElement(new By.ByName("size"))).selectByVisibleText("1/3 CT."); //drop-down list
+        Select dropdown = new Select(driver.findElement(new By.ByName("size")));
+        dropdown.selectByVisibleText("1/3 CT.");
 
+        System.out.println("- Click 1/3");
+        Thread.sleep(10000);
+
+/*
         //Thread.sleep(10000);
 
        // Assert.assertTrue(driver.findElement());
@@ -33,7 +58,7 @@ public class Top13Specific extends WebDriver {
         System.out.println("- Cost Done");
         wait.until(ExpectedConditions.presenceOfElementLocated(By.className(".builder-price-title.sticky-content.sticky-block")));
 
-
+*/
     }
 
 }
