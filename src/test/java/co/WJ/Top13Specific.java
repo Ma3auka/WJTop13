@@ -1,35 +1,9 @@
 package co.WJ;
 
-import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.FixMethodOrder;
-import org.junit.runner.RunWith;
-import org.junit.runners.MethodSorters;
-import org.junit.Assert;
-import org.junit.Rule;
-import org.junit.rules.TestRule;
-import org.junit.rules.TestWatcher;
-import org.junit.runner.Description;
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.NoAlertPresentException;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.Platform;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
-import java.util.List;
 
 
 public class Top13Specific extends WebDriver {
@@ -49,6 +23,9 @@ public class Top13Specific extends WebDriver {
         }
 
         Thread.sleep(2000);
+
+
+        driver.findElement(By.cssSelector("Body")).sendKeys(Keys.CONTROL + "t"); // открыть вкладку в новом окне
     }
 
 
