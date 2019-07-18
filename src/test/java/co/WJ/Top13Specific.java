@@ -60,6 +60,23 @@ public class Top13Specific extends WebDriver {
 
 */
     }
+    @Test
+    public void Gogle() throws Exception {
+
+        driver.get("https://www.google.com.ua");
+        System.out.println("- Open url");
+
+        String title = driver.getTitle();
+        Assert.assertTrue(title.equals("Google"));
+
+        driver.findElement(By.name("q")).sendKeys("что такое баг");
+        System.out.println("- Text");
+
+        driver.findElement(By.name("q")).click();
+        System.out.println("- Поиск");
+        Thread.sleep(3000);
+
+    }
 
 }
 
