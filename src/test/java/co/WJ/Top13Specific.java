@@ -29,11 +29,31 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.util.List;
+
 
 public class Top13Specific extends WebDriver {
 
+
     @Test
-    public void Top13() throws Exception { //Открыть ссылку и проверка на title
+    public void Top13_XC2192K_MQ_12() throws Exception { //Открыть ссылку и проверка на title
+
+        driver.get("https://zales.wonderjewel.co/configurator/XC2192K");
+        System.out.println("- Open url");
+
+        if (driver.getPageSource().contains("2,699.77")) {
+            System.out.println("Cost Done");
+        }
+        else {
+            System.out.println("-Cost Fail");
+        }
+
+        Thread.sleep(2000);
+    }
+
+
+    @Test
+    public void Top13_XC2192K_OV_12() throws Exception {
 
         driver.get("https://zales.wonderjewel.co/configurator/XC2192K");
         System.out.println("- Open url");
@@ -43,37 +63,6 @@ public class Top13Specific extends WebDriver {
         dropdown.selectByVisibleText("1/3 CT.");
 
         System.out.println("- Click 1/3");
-        Thread.sleep(10000);
-
-/*
-        //Thread.sleep(10000);
-
-       // Assert.assertTrue(driver.findElement());
-
-        String title = driver.getTitle();
-        Assert.assertTrue(title.equals("Build your own ring"));
-        System.out.println("- Check title");
-
-        Assert.assertTrue(driver.findElement(By.className(".builder-price-title.sticky-content.sticky-block")).getText().contains("$2,699.77"));
-        System.out.println("- Cost Done");
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.className(".builder-price-title.sticky-content.sticky-block")));
-
-*/
-    }
-    @Test
-    public void Gogle() throws Exception {
-
-        driver.get("https://www.google.com.ua");
-        System.out.println("- Open url");
-
-        String title = driver.getTitle();
-        Assert.assertTrue(title.equals("Google"));
-
-        driver.findElement(By.name("q")).sendKeys("что такое баг");
-        System.out.println("- Text");
-
-        driver.findElement(By.name("q")).click();
-        System.out.println("- Поиск");
         Thread.sleep(3000);
 
     }

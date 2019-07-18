@@ -17,6 +17,8 @@ public class WebDriver {
 
         driver.manage().window().maximize();
         System.out.println("- Test Start"); //Выводим в консоль строку что двайвер поднялся
+        System.out.println("- Screen resolution:");
+        System.out.println(driver.manage().window().getSize()); //Размеры экрана
     }
 
     @After
