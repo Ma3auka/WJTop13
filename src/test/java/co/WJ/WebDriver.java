@@ -2,7 +2,9 @@ package co.WJ;
 
 import org.junit.After;
 import org.junit.Before;
+import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class WebDriver {
@@ -17,8 +19,16 @@ public class WebDriver {
 
         driver.manage().window().maximize();
         System.out.println("- Test Start"); //Выводим в консоль строку что двайвер поднялся
+
         System.out.println("- Screen resolution:");
         System.out.println(driver.manage().window().getSize()); //Размеры экрана
+
+        System.out.println("- Browser version:"); //Версия браузера
+        Capabilities caps = ((RemoteWebDriver)driver).getCapabilities();
+        String browserName = caps.getBrowserName();
+        String browserVersion = caps.getVersion();
+        System.out.println(browserName+ "" +browserVersion);
+
     }
 
     @After
