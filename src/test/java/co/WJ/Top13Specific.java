@@ -57,19 +57,17 @@ public class Top13Specific extends WebDriver {
 
             Thread.sleep(5000);
 
+        ((JavascriptExecutor) driver).executeScript("arguments[0].style.display = 'block';", driver.findElement(By.id("OV")));
+        driver.findElement(By.id("OV")).click();
 
+            Thread.sleep(5000);
 
-
-
-
-
-
-
-
-
-
-
-
+        if (driver.getPageSource().contains("4,499.99")) {
+            System.out.println("- Cost Done");
+        }
+        else {
+            System.out.println("- Cost Fail");
+        }
 
     }
 
