@@ -2,12 +2,9 @@ package co.WJ;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.Select;
 import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 
 import java.io.File;
 import java.util.Random;
@@ -28,8 +25,6 @@ public class Top13Specific extends WebDriver {
         String title = driver.getTitle();
         System.out.println("- Title Done: " + title);
         Assert.assertTrue(title.contains("Build your own ring"));
-
-        Thread.sleep(5000);
 
         new Select(driver.findElement(new By.ByName("size"))).selectByVisibleText("1/3 CT."); //drop-down list
         Select dropdown = new Select(driver.findElement(new By.ByName("size")));
@@ -81,8 +76,6 @@ public class Top13Specific extends WebDriver {
         String title = driver.getTitle();
         System.out.println("- Title Done: " + title);
         Assert.assertTrue(title.contains("Build your own ring"));
-
-        Thread.sleep(5000);
 
         new Select(driver.findElement(new By.ByName("size"))).selectByVisibleText("1 CT."); //drop-down list
         Select dropdown = new Select(driver.findElement(new By.ByName("size")));
@@ -162,8 +155,6 @@ public class Top13Specific extends WebDriver {
         System.out.println("- Title Done: " + title);
         Assert.assertTrue(title.contains("Build your own ring"));
 
-        Thread.sleep(5000);
-
         new Select(driver.findElement(new By.ByName("size"))).selectByVisibleText("1/3 CT."); //drop-down list
         Select dropdown = new Select(driver.findElement(new By.ByName("size")));
         dropdown.selectByVisibleText("1/3 CT.");
@@ -229,8 +220,6 @@ public class Top13Specific extends WebDriver {
         System.out.println("- Title Done: " + title);
         Assert.assertTrue(title.contains("Build your own ring"));
 
-        Thread.sleep(3000);
-
         new Select(driver.findElement(new By.ByName("size"))).selectByVisibleText("1/3 CT."); //drop-down list
         Select dropdown = new Select(driver.findElement(new By.ByName("size")));
         dropdown.selectByVisibleText("1/3 CT.");
@@ -265,8 +254,6 @@ public class Top13Specific extends WebDriver {
         String title = driver.getTitle();
         System.out.println("- Title Done: " + title);
         Assert.assertTrue(title.contains("Build your own ring"));
-
-        Thread.sleep(3000);
 
         new Select(driver.findElement(new By.ByName("size"))).selectByVisibleText("1/3 CT."); //drop-down list
         Select dropdown = new Select(driver.findElement(new By.ByName("size")));
@@ -303,8 +290,6 @@ public class Top13Specific extends WebDriver {
         System.out.println("- Title Done: " + title);
         Assert.assertTrue(title.contains("Build your own ring"));
 
-        Thread.sleep(5000);
-
         ((JavascriptExecutor) driver).executeScript("arguments[0].style.display = 'block';", driver.findElement(By.id("PE")));
         driver.findElement(By.id("PE")).click();
 
@@ -339,8 +324,6 @@ public class Top13Specific extends WebDriver {
         String title = driver.getTitle();
         System.out.println("- Title Done: " + title);
         Assert.assertTrue(title.contains("Build your own ring"));
-
-        Thread.sleep(5000);
 
         new Select(driver.findElement(new By.ByName("size"))).selectByVisibleText("1 CT."); //drop-down list
         Select dropdown = new Select(driver.findElement(new By.ByName("size")));
@@ -395,6 +378,44 @@ public class Top13Specific extends WebDriver {
         dropdown.selectByVisibleText("1 CT.");
 
         Thread.sleep(5000);
+
+        if (driver.getPageSource().contains("9,999.99")) {
+            System.out.println("- Cost Done (XC1061 9,999.99)");
+        } else {
+            int number = new Random().nextInt(1000) + 5;
+
+            File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+            FileUtils.copyFile(scrFile, new File("C:\\screenshot\\screenshot" + number + ".png"));
+
+            System.out.println("- Screenshot (XC1061 9,999.99)");
+        }
+
+    }
+
+
+    @Test
+    public void Top13_Test() throws Exception { //id 19,20,21,22
+
+        driver.get("https://zales.wonderjewel.co/configurator/XC1061");
+        System.out.println("- Open url");
+
+        String title = driver.getTitle();
+        System.out.println("- Title Done: " + title);
+        Assert.assertTrue(title.contains("Build your own ring"));
+
+        new Select(driver.findElement(new By.ByName("size"))).selectByVisibleText("1 CT."); //drop-down list
+        Select dropdown = new Select(driver.findElement(new By.ByName("size")));
+        dropdown.selectByVisibleText("1 CT.");
+
+
+
+
+
+
+
+
+
+
 
         if (driver.getPageSource().contains("9,999.99")) {
             System.out.println("- Cost Done (XC1061 9,999.99)");

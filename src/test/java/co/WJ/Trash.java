@@ -18,4 +18,7 @@
 
                     driver.findElement(By.cssSelector("Body")).sendKeys(Keys.CONTROL + "t"); // открыть вкладку в новом окне
 
+                    driver.findElement(By.xpath("//a[text()='Start over']")).click();
+
+
  */
