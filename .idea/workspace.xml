@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05a275cc-9758-4aae-bd37-b988d18c069d" name="Default Changelist" comment="">
+    <list default="true" id="05a275cc-9758-4aae-bd37-b988d18c069d" name="Default Changelist" comment="- sleep / test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/co/WJ/Top13Specific.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/WJ/Top13Specific.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/co/WJ/Top13Specific.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/co/WJ/Top13Specific.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,8 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="35" column="31" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+            <state relative-caret-position="595">
+              <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -30,8 +31,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/co/WJ/Top13Specific.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" column="48" lean-forward="true" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+            <state relative-caret-position="391">
+              <caret line="51" column="44" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/co/WJ/Trash.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+            <state relative-caret-position="340">
+              <caret line="20" selection-start-line="20" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -51,7 +52,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/co/WJ/WebDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
+            <state relative-caret-position="391">
               <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -75,6 +76,12 @@
       <find>XC1427</find>
       <find>Top13_XC1222K</find>
       <find>XC1222K</find>
+      <find>Assert.assertTrue(title.contains(&quot;Build your own ring&quot;));</find>
+      <find>Screenshot (XC1861K 3,999.99)</find>
+      <find>XC1061</find>
+      <find>4,699.99</find>
+      <find>Thread.sleep(5000)</find>
+      <find>Screenshot</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -88,8 +95,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/co/WJ/JewelTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/co/WJ/WebDriver.java" />
-        <option value="$PROJECT_DIR$/src/test/java/co/WJ/Trash.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/co/WJ/Trash.java" />
         <option value="$PROJECT_DIR$/src/test/java/co/WJ/Top13Specific.java" />
       </list>
     </option>
@@ -106,6 +113,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -161,7 +169,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -223,7 +230,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Top13Specific.Top13_XC1061" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Top13Specific.Top13_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WJTest" />
       <extension name="coverage">
         <pattern>
@@ -233,13 +240,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="co.WJ" />
       <option name="MAIN_CLASS_NAME" value="co.WJ.Top13Specific" />
-      <option name="METHOD_NAME" value="Top13_XC1061" />
+      <option name="METHOD_NAME" value="Top13_Test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Top13Specific.Top13_XC1090" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Top13Specific.Top13_XC1035P" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WJTest" />
       <extension name="coverage">
         <pattern>
@@ -249,13 +256,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="co.WJ" />
       <option name="MAIN_CLASS_NAME" value="co.WJ.Top13Specific" />
-      <option name="METHOD_NAME" value="Top13_XC1090" />
+      <option name="METHOD_NAME" value="Top13_XC1035P" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Top13Specific.Top13_XC1222K" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Top13Specific.Top13_XC2192K" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WJTest" />
       <extension name="coverage">
         <pattern>
@@ -265,7 +272,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="co.WJ" />
       <option name="MAIN_CLASS_NAME" value="co.WJ.Top13Specific" />
-      <option name="METHOD_NAME" value="Top13_XC1222K" />
+      <option name="METHOD_NAME" value="Top13_XC2192K" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -274,10 +281,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Top13Specific" />
+        <item itemvalue="JUnit.Top13Specific.Top13_Test" />
+        <item itemvalue="JUnit.Top13Specific.Top13_XC1035P" />
+        <item itemvalue="JUnit.Top13Specific.Top13_XC2192K" />
         <item itemvalue="Android JUnit.Top13Specific.Top13_XC1061" />
-        <item itemvalue="JUnit.Top13Specific.Top13_XC1061" />
-        <item itemvalue="JUnit.Top13Specific.Top13_XC1090" />
-        <item itemvalue="JUnit.Top13Specific.Top13_XC1222K" />
       </list>
     </recent_temporary>
   </component>
@@ -298,7 +305,10 @@
       <workItem from="1562678022463" duration="14085000" />
       <workItem from="1562756487294" duration="10337000" />
       <workItem from="1563301999446" duration="4894000" />
-      <workItem from="1563358971839" duration="41367000" />
+      <workItem from="1563358971839" duration="44136000" />
+      <workItem from="1563870903677" duration="1266000" />
+      <workItem from="1563898420208" duration="1121000" />
+      <workItem from="1563901972334" duration="2036000" />
     </task>
     <task id="LOCAL-00001" summary="Google test">
       <created>1563462984836</created>
@@ -370,43 +380,57 @@
       <option name="project" value="LOCAL" />
       <updated>1563815309889</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="id all">
+      <created>1563817568456</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1563817568456</updated>
+    </task>
+    <task id="LOCAL-00012" summary="- sleep / test">
+      <created>1563819317162</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1563819317162</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Top13Specific_Top13_XC1222K - 2019.07.22 at 20h 15m 42s.xml">
-      <configuration name="Top13Specific.Top13_XC1222K" configurationId="JUnit" />
+    <history-entry file="Top13Specific_Top13_Test - 2019.07.23 at 19h 25m 35s.xml">
+      <configuration name="Top13Specific.Top13_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Top13Specific - 2019.07.22 at 20h 18m 57s.xml">
+    <history-entry file="Top13Specific_Top13_XC1035P - 2019.07.23 at 20h 14m 25s.xml">
+      <configuration name="Top13Specific.Top13_XC1035P" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Top13Specific_Top13_XC1035P - 2019.07.23 at 20h 15m 20s.xml">
+      <configuration name="Top13Specific.Top13_XC1035P" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Top13Specific - 2019.07.23 at 20h 18m 18s.xml">
       <configuration name="Top13Specific" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Top13Specific_Top13_XC1222K - 2019.07.22 at 20h 21m 04s.xml">
-      <configuration name="Top13Specific.Top13_XC1222K" configurationId="JUnit" />
+    <history-entry file="Top13Specific - 2019.07.23 at 20h 22m 24s.xml">
+      <configuration name="Top13Specific" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Top13Specific_Top13_XC1222K - 2019.07.22 at 20h 22m 17s.xml">
-      <configuration name="Top13Specific.Top13_XC1222K" configurationId="JUnit" />
+    <history-entry file="Top13Specific - 2019.07.23 at 20h 27m 38s.xml">
+      <configuration name="Top13Specific" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Top13Specific_Top13_XC1090 - 2019.07.22 at 20h 26m 58s.xml">
-      <configuration name="Top13Specific.Top13_XC1090" configurationId="JUnit" />
+    <history-entry file="Top13Specific - 2019.07.23 at 20h 31m 58s.xml">
+      <configuration name="Top13Specific" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Top13Specific_Top13_XC1061 - 2019.07.22 at 20h 32m 47s.xml">
-      <configuration name="Top13Specific.Top13_XC1061" configurationId="JUnit" />
+    <history-entry file="Top13Specific_Top13_Test - 2019.07.23 at 20h 37m 26s.xml">
+      <configuration name="Top13Specific.Top13_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Top13Specific_Top13_XC1061 - 2019.07.22 at 20h 35m 08s.xml">
-      <configuration name="Top13Specific.Top13_XC1061" configurationId="JUnit" />
+    <history-entry file="Top13Specific_Top13_Test - 2019.07.23 at 20h 41m 11s.xml">
+      <configuration name="Top13Specific.Top13_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Top13Specific_Top13_XC1061 - 2019.07.22 at 20h 37m 49s.xml">
-      <configuration name="Top13Specific.Top13_XC1061" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Top13Specific_Top13_XC1061 - 2019.07.22 at 20h 38m 38s.xml">
-      <configuration name="Top13Specific.Top13_XC1061" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="Top13Specific_Top13_XC1061 - 2019.07.22 at 20h 40m 00s.xml">
-      <configuration name="Top13Specific.Top13_XC1061" configurationId="AndroidJUnit" />
+    <history-entry file="Top13Specific - 2019.07.23 at 20h 46m 38s.xml">
+      <configuration name="Top13Specific" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85632000" />
+    <option name="totallyTimeSpent" value="92824000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -419,9 +443,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21695095" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22334754" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -429,7 +452,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32981783" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.4084372" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3988495" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -465,7 +488,9 @@
     <MESSAGE value="Specific" />
     <MESSAGE value="Screenshot" />
     <MESSAGE value="ID 1 - 10" />
-    <option name="LAST_COMMIT_MESSAGE" value="ID 1 - 10" />
+    <MESSAGE value="id all" />
+    <MESSAGE value="- sleep / test" />
+    <option name="LAST_COMMIT_MESSAGE" value="- sleep / test" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/WJTest$JewelTest_Top13.ic" NAME="JewelTest.Top13 Coverage Results" MODIFIED="1562760091366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -487,16 +512,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/co/WJ/Trash.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-end-line="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/co/WJ/WebDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
+        <state relative-caret-position="391">
           <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -504,17 +536,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="35" column="31" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/co/WJ/Top13Specific.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="48" lean-forward="true" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+        <state relative-caret-position="391">
+          <caret line="51" column="44" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
