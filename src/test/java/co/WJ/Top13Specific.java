@@ -22,8 +22,10 @@ public class Top13Specific extends WebDriver {
         System.out.println("- Open url: " + url);
 
         String title = driver.getTitle();
-        System.out.println("- Title Done: " + title);
+        System.out.println("- Title: " + title);
         Assert.assertTrue(title.contains("Build your own ring"));
+
+        Thread.sleep(5000);
 
         new Select(driver.findElement(new By.ByName("size"))).selectByVisibleText("1/3 CT."); //drop-down list
         Select dropdown = new Select(driver.findElement(new By.ByName("size")));
@@ -34,7 +36,7 @@ public class Top13Specific extends WebDriver {
         dropdown = new Select(driver.findElement(new By.ByName("size")));
         dropdown.selectByVisibleText("1/2 CT.");
 
-            Thread.sleep(8000);
+        Thread.sleep(8000);
 
         if (driver.getPageSource().contains("3,699.99")) {
             System.out.println("- Cost Done (XC2192K 3,699.99)");
@@ -50,7 +52,7 @@ public class Top13Specific extends WebDriver {
         ((JavascriptExecutor) driver).executeScript("arguments[0].style.display = 'block';", driver.findElement(By.id("OV")));
         driver.findElement(By.id("OV")).click();
 
-            Thread.sleep(8000);
+        Thread.sleep(8000);
 
         if (driver.getPageSource().contains("4,499.99")) {
             System.out.println("- Cost Done (XC2192K 4,499.99)");
@@ -73,14 +75,16 @@ public class Top13Specific extends WebDriver {
         System.out.println("- Open url: " + url);
 
         String title = driver.getTitle();
-        System.out.println("- Title Done: " + title);
+        System.out.println("- Title: " + title);
         Assert.assertTrue(title.contains("Build your own ring"));
+
+        Thread.sleep(5000);
 
         new Select(driver.findElement(new By.ByName("size"))).selectByVisibleText("1 CT."); //drop-down list
         Select dropdown = new Select(driver.findElement(new By.ByName("size")));
         dropdown.selectByVisibleText("1 CT.");
 
-            Thread.sleep(8000);
+        Thread.sleep(8000);
 
         if (driver.getPageSource().contains("9,999.99")) {
             System.out.println("- Cost Done (XC1035P 9,999.99)");
@@ -96,7 +100,7 @@ public class Top13Specific extends WebDriver {
         dropdown = new Select(driver.findElement(new By.ByName("size")));
         dropdown.selectByVisibleText("1/2 CT.");
 
-            Thread.sleep(8000);
+        Thread.sleep(8000);
 
         if (driver.getPageSource().contains("4,699.99")) {
             System.out.println("- Cost Done (XC1035P 4,699.99)");
@@ -112,7 +116,7 @@ public class Top13Specific extends WebDriver {
         ((JavascriptExecutor) driver).executeScript("arguments[0].style.display = 'block';", driver.findElement(By.id("PR")));
         driver.findElement(By.id("PR")).click();
 
-            Thread.sleep(8000);
+        Thread.sleep(8000);
 
         if (driver.getPageSource().contains("4,699.99")) {
             System.out.println("- Cost Done (XC1035P 4,699.99)");
@@ -128,7 +132,7 @@ public class Top13Specific extends WebDriver {
         dropdown = new Select(driver.findElement(new By.ByName("size")));
         dropdown.selectByVisibleText("1 CT.");
 
-            Thread.sleep(8000);
+        Thread.sleep(8000);
 
         if (driver.getPageSource().contains("9,999.99")) {
             System.out.println("- Cost Done (XC1035P 9,999.99)");
@@ -151,14 +155,16 @@ public class Top13Specific extends WebDriver {
         System.out.println("- Open url: " + url);
 
         String title = driver.getTitle();
-        System.out.println("- Title Done: " + title);
+        System.out.println("- Title: " + title);
         Assert.assertTrue(title.contains("Build your own ring"));
+
+        Thread.sleep(5000);
 
         new Select(driver.findElement(new By.ByName("size"))).selectByVisibleText("1/3 CT."); //drop-down list
         Select dropdown = new Select(driver.findElement(new By.ByName("size")));
         dropdown.selectByVisibleText("1/3 CT.");
 
-            Thread.sleep(8000);
+        Thread.sleep(8000);
 
         if (driver.getPageSource().contains("2,999.99")) {
             System.out.println("- Cost Done (XC1160K 2,999.99)");
@@ -181,19 +187,21 @@ public class Top13Specific extends WebDriver {
         System.out.println("- Open url: " + url);
 
         String title = driver.getTitle();
-        System.out.println("- Title Done: " + title);
+        System.out.println("- Title: " + title);
         Assert.assertTrue(title.contains("Build your own ring"));
+
+        Thread.sleep(5000);
 
         new Select(driver.findElement(new By.ByName("size"))).selectByVisibleText("1/3 CT."); //drop-down list
         Select dropdown = new Select(driver.findElement(new By.ByName("size")));
         dropdown.selectByVisibleText("1/3 CT.");
 
-            Thread.sleep(8000);
+        Thread.sleep(8000);
 
         dropdown = new Select(driver.findElement(new By.ByName("size")));
         dropdown.selectByVisibleText("1/2 CT.");
 
-            Thread.sleep(6000);
+        Thread.sleep(6000);
 
         if (driver.getPageSource().contains("3,999.99")) {
             System.out.println("- Cost Done (XC1222K 3,999.99)");
@@ -216,19 +224,21 @@ public class Top13Specific extends WebDriver {
         System.out.println("- Open url: " + url);
 
         String title = driver.getTitle();
-        System.out.println("- Title Done: " + title);
+        System.out.println("- Title: " + title);
         Assert.assertTrue(title.contains("Build your own ring"));
+
+        Thread.sleep(5000);
 
         new Select(driver.findElement(new By.ByName("size"))).selectByVisibleText("1/3 CT."); //drop-down list
         Select dropdown = new Select(driver.findElement(new By.ByName("size")));
         dropdown.selectByVisibleText("1/3 CT.");
 
-            Thread.sleep(8000);
+        Thread.sleep(8000);
 
         dropdown = new Select(driver.findElement(new By.ByName("size")));
         dropdown.selectByVisibleText("1/2 CT.");
 
-            Thread.sleep(8000);
+        Thread.sleep(8000);
 
         if (driver.getPageSource().contains("2,999.99")) {
             System.out.println("- Cost Done (XC1427 2,999.99)");
@@ -251,19 +261,21 @@ public class Top13Specific extends WebDriver {
         System.out.println("- Open url: " + url);
 
         String title = driver.getTitle();
-        System.out.println("- Title Done: " + title);
+        System.out.println("- Title: " + title);
         Assert.assertTrue(title.contains("Build your own ring"));
+
+        Thread.sleep(5000);
 
         new Select(driver.findElement(new By.ByName("size"))).selectByVisibleText("1/3 CT."); //drop-down list
         Select dropdown = new Select(driver.findElement(new By.ByName("size")));
         dropdown.selectByVisibleText("1/3 CT.");
 
-            Thread.sleep(8000);
+        Thread.sleep(8000);
 
         dropdown = new Select(driver.findElement(new By.ByName("size")));
         dropdown.selectByVisibleText("1/2 CT.");
 
-            Thread.sleep(8000);
+        Thread.sleep(8000);
 
         if (driver.getPageSource().contains("3,999.99")) {
             System.out.println("- Cost Done (XC1861K 3,999.99)");
@@ -286,19 +298,21 @@ public class Top13Specific extends WebDriver {
         System.out.println("- Open url: " + url);
 
         String title = driver.getTitle();
-        System.out.println("- Title Done: " + title);
+        System.out.println("- Title: " + title);
         Assert.assertTrue(title.contains("Build your own ring"));
+
+        Thread.sleep(5000);
 
         ((JavascriptExecutor) driver).executeScript("arguments[0].style.display = 'block';", driver.findElement(By.id("PE")));
         driver.findElement(By.id("PE")).click();
 
-            Thread.sleep(8000);
+        Thread.sleep(8000);
 
         new Select(driver.findElement(new By.ByName("size"))).selectByVisibleText("1/3 CT."); //drop-down list
         Select dropdown = new Select(driver.findElement(new By.ByName("size")));
         dropdown.selectByVisibleText("1/3 CT.");
 
-            Thread.sleep(8000);
+        Thread.sleep(8000);
 
         if (driver.getPageSource().contains("2,499.99")) {
             System.out.println("- Cost Done (XC1090 2,499.99)");
@@ -321,14 +335,16 @@ public class Top13Specific extends WebDriver {
         System.out.println("- Open url: " + url);
 
         String title = driver.getTitle();
-        System.out.println("- Title Done: " + title);
+        System.out.println("- Title: " + title);
         Assert.assertTrue(title.contains("Build your own ring"));
+
+        Thread.sleep(5000);
 
         new Select(driver.findElement(new By.ByName("size"))).selectByVisibleText("1 CT."); //drop-down list
         Select dropdown = new Select(driver.findElement(new By.ByName("size")));
         dropdown.selectByVisibleText("1 CT.");
 
-            Thread.sleep(8000);
+        Thread.sleep(8000);
 
         if (driver.getPageSource().contains("9,999.99")) {
             System.out.println("- Cost Done (XC1061 9,999.99)");
@@ -344,7 +360,7 @@ public class Top13Specific extends WebDriver {
          dropdown = new Select(driver.findElement(new By.ByName("size")));
          dropdown.selectByVisibleText("1/2 CT.");
 
-            Thread.sleep(8000);
+         Thread.sleep(8000);
 
         if (driver.getPageSource().contains("4,699.99")) {
             System.out.println("- Cost Done (XC1061 4,699.99)");
@@ -360,7 +376,7 @@ public class Top13Specific extends WebDriver {
         ((JavascriptExecutor) driver).executeScript("arguments[0].style.display = 'block';", driver.findElement(By.id("RD")));
         driver.findElement(By.id("RD")).click();
 
-            Thread.sleep(8000);
+        Thread.sleep(8000);
 
         if (driver.getPageSource().contains("4,699.99")) {
             System.out.println("- Cost Done (XC1061 4,699.99)");
@@ -376,7 +392,7 @@ public class Top13Specific extends WebDriver {
         dropdown = new Select(driver.findElement(new By.ByName("size")));
         dropdown.selectByVisibleText("1 CT.");
 
-            Thread.sleep(8000);
+        Thread.sleep(8000);
 
         if (driver.getPageSource().contains("9,999.99")) {
             System.out.println("- Cost Done (XC1061 9,999.99)");
@@ -391,7 +407,7 @@ public class Top13Specific extends WebDriver {
 
     }
 
-    @Test
+/*    @Test
     public void Top13_Test() throws Exception { //id 19,20,21,22
 
         driver.get("https://zales.wonderjewel.co/configurator/XC1061");
@@ -399,7 +415,7 @@ public class Top13Specific extends WebDriver {
         System.out.println("- Open url: " + url);
 
         String title = driver.getTitle();
-        System.out.println("- Title Done: " + title);
+        System.out.println("- Title: " + title);
 
         Assert.assertTrue(title.contains("Build your own ring"));
 
@@ -422,6 +438,7 @@ public class Top13Specific extends WebDriver {
 
     }
 
+ */
 }
 
 
