@@ -404,7 +404,7 @@ public class Top13Specific extends WebDriver {
     }
 
 
-/*    @Test
+    @Test
     public void Top13_Test() throws Exception { //id 19,20,21,22
 
         driver.get("https://zales.wonderjewel.co/configurator/XC1061");
@@ -435,10 +435,7 @@ public class Top13Specific extends WebDriver {
         }
 
 
-
     }
-
-*/
 
 }
 
