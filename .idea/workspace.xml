@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="05a275cc-9758-4aae-bd37-b988d18c069d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/WJ/CostCustomizable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/WJ/CostCustomizable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/WJ/Top13Specific.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/WJ/Top13Specific.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/WJ/Sdc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/WJ/Sdc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/co/WJ/Top13Specific.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/co/WJ/Top13Specific.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,22 +17,16 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="WJTest" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="47" column="24" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/co/WJ/Top13Specific.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+            <state relative-caret-position="238">
+              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,10 +35,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/co/WJ/CostCustomizable.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/co/WJ/WebDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+            <state relative-caret-position="153">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,8 +49,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/co/WJ/Sdc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+            <state relative-caret-position="289">
+              <caret line="33" column="8" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/co/WJ/JewelTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,8 +93,9 @@
       <find>Title Done:</find>
       <find>org.testng</find>
       <find>XC2192K</find>
-      <find>Screenshot</find>
       <find>Screenshot (XC2192K 4,499.99)</find>
+      <find>Screenshot</find>
+      <find>Screenshot (XC1035P 9,999.99)</find>
       <find>XC1035P</find>
     </findStrings>
   </component>
@@ -107,18 +112,18 @@
         <option value="$PROJECT_DIR$/src/test/java/co/WJ/TimeSpan.java" />
         <option value="$PROJECT_DIR$/src/test/java/co/WJ/WebDriver.java" />
         <option value="$PROJECT_DIR$/src/test/java/co/WJ/Trash.java" />
-        <option value="$PROJECT_DIR$/src/test/java/co/WJ/Sdc.java" />
         <option value="$PROJECT_DIR$/src/test/java/co/WJ/CostCustomizable.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/co/WJ/Top13Specific.java" />
+        <option value="$PROJECT_DIR$/src/test/java/co/WJ/Sdc.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="71" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="945" />
+    <option name="height" value="1176" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -126,7 +131,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -202,6 +206,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -237,7 +242,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Top13Specific.Top13_XC1035P">
+  <component name="RunManager" selected="JUnit.Top13Specific">
     <configuration name="CostCustomizable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WJTest" />
       <extension name="coverage">
@@ -253,7 +258,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CostCustomizable.CostStart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Sdc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WJTest" />
       <extension name="coverage">
         <pattern>
@@ -262,9 +267,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="co.WJ" />
-      <option name="MAIN_CLASS_NAME" value="co.WJ.CostCustomizable" />
-      <option name="METHOD_NAME" value="CostStart" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="co.WJ.Sdc" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -318,11 +322,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Top13Specific.Top13_XC1035P" />
-        <item itemvalue="JUnit.Top13Specific.Top13_XC2192K" />
         <item itemvalue="JUnit.Top13Specific" />
+        <item itemvalue="JUnit.Top13Specific.Top13_XC1035P" />
+        <item itemvalue="JUnit.Sdc" />
+        <item itemvalue="JUnit.Top13Specific.Top13_XC2192K" />
         <item itemvalue="JUnit.CostCustomizable" />
-        <item itemvalue="JUnit.CostCustomizable.CostStart" />
       </list>
     </recent_temporary>
   </component>
@@ -346,7 +350,14 @@
       <workItem from="1563358971839" duration="44136000" />
       <workItem from="1563870903677" duration="1266000" />
       <workItem from="1563898420208" duration="1121000" />
-      <workItem from="1563901972334" duration="10642000" />
+      <workItem from="1563901972334" duration="11639000" />
+      <workItem from="1564052181412" duration="6082000" />
+      <workItem from="1564392538375" duration="413000" />
+      <workItem from="1564496771906" duration="86000" />
+      <workItem from="1564496983242" duration="321000" />
+      <workItem from="1564497380622" duration="181000" />
+      <workItem from="1564497624622" duration="105000" />
+      <workItem from="1564497758583" duration="7722000" />
     </task>
     <task id="LOCAL-00001" summary="Google test">
       <created>1563462984836</created>
@@ -453,43 +464,50 @@
       <option name="project" value="LOCAL" />
       <updated>1563984765878</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Dependency">
+      <created>1563986864146</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1563986864146</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CostCustomizable_CostStart - 2019.07.24 at 19h 17m 04s.xml">
-      <configuration name="CostCustomizable.CostStart" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CostCustomizable_CostStart - 2019.07.24 at 19h 17m 22s.xml">
-      <configuration name="CostCustomizable.CostStart" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CostCustomizable_CostStart - 2019.07.24 at 19h 17m 47s.xml">
-      <configuration name="CostCustomizable.CostStart" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CostCustomizable_CostStart - 2019.07.24 at 19h 18m 25s.xml">
-      <configuration name="CostCustomizable.CostStart" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CostCustomizable - 2019.07.24 at 19h 19m 05s.xml">
-      <configuration name="CostCustomizable" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CostCustomizable - 2019.07.24 at 19h 19m 38s.xml">
-      <configuration name="CostCustomizable" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Top13Specific - 2019.07.24 at 19h 38m 59s.xml">
-      <configuration name="Top13Specific" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Top13Specific_Top13_XC2192K - 2019.07.24 at 19h 40m 23s.xml">
-      <configuration name="Top13Specific.Top13_XC2192K" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Top13Specific_Top13_XC1035P - 2019.07.24 at 19h 41m 30s.xml">
       <configuration name="Top13Specific.Top13_XC1035P" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Top13Specific_Top13_XC1035P - 2019.07.24 at 19h 42m 49s.xml">
       <configuration name="Top13Specific.Top13_XC1035P" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Top13Specific_Top13_XC1035P - 2019.07.24 at 19h 44m 41s.xml">
+      <configuration name="Top13Specific.Top13_XC1035P" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Top13Specific_Top13_XC1035P - 2019.07.24 at 19h 46m 21s.xml">
+      <configuration name="Top13Specific.Top13_XC1035P" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Sdc - 2019.07.24 at 19h 50m 45s.xml">
+      <configuration name="Sdc" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Top13Specific - 2019.07.25 at 14h 03m 36s.xml">
+      <configuration name="Top13Specific" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Top13Specific - 2019.07.25 at 15h 17m 17s.xml">
+      <configuration name="Top13Specific" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Top13Specific - 2019.07.30 at 19h 36m 49s.xml">
+      <configuration name="Top13Specific" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Top13Specific_Top13_XC1035P - 2019.07.30 at 19h 38m 09s.xml">
+      <configuration name="Top13Specific.Top13_XC1035P" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Top13Specific_Top13_XC1035P - 2019.07.30 at 19h 53m 26s.xml">
+      <configuration name="Top13Specific.Top13_XC1035P" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101430000" />
+    <option name="totallyTimeSpent" value="117337000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -504,17 +522,16 @@
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22334754" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4995206" visible="true" weight="0.24093817" />
+      <window_info id="Structure" order="1" sideWeight="0.5004794" side_tool="true" weight="0.22334754" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info id="Favorites" order="6" sideWeight="0.5004794" side_tool="true" weight="0.22334754" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32981783" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.4084372" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.3729626" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3988495" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -524,8 +541,8 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32981783" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5010661" side_tool="true" weight="0.4084372" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.2405892" />
-      <window_info anchor="right" id="CDI" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.2396932" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32981783" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -536,6 +553,7 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" />
+      <window_info anchor="right" id="CDI" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -555,7 +573,8 @@
     <MESSAGE value="Sleep / url" />
     <MESSAGE value="url / class" />
     <MESSAGE value="Tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tests" />
+    <MESSAGE value="Dependency" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dependency" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/WJTest$JewelTest_Top13.ic" NAME="JewelTest.Top13 Coverage Results" MODIFIED="1562760091366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -567,47 +586,11 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/co/WJ/WjTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/co/WJ/TimeSpan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/co/WJ/WebDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/co/WJ/TimeSpan.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/co/WJ/Trash.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/co/WJ/JewelTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/co/WJ/Sdc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -623,15 +606,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="47" column="24" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="24" />
+        <state relative-caret-position="11">
+          <caret line="43" column="23" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/co/WJ/WebDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <folding>
+            <element signature="e#0#1340#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/co/WJ/Top13Specific.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/co/WJ/JewelTest.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/co/WJ/CostCustomizable.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/co/WJ/Sdc.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/co/WJ/WebDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/co/WJ/JewelTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/co/WJ/Sdc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="33" column="8" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/co/WJ/Top13Specific.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+        <state relative-caret-position="238">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

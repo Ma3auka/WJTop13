@@ -30,6 +30,9 @@ public class Sdc extends WebDriver {
         System.out.println("- Open url: " + url);
 
 
+        Sdc.SaveScore("Дейв", 3);
+
+
  /*       String title = driver.getTitle();
         System.out.println("- Title Done: " + title);
         Assert.assertTrue(title.contains("Sign in"));
@@ -54,6 +57,9 @@ public class Sdc extends WebDriver {
 
 
 
+    }
+
+    private static void SaveScore(String дейв, int i) {
     }
 
 }
