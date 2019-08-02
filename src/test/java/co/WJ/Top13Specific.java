@@ -448,18 +448,31 @@ public class Top13Specific extends WebDriver {
 
         Thread.sleep(2000);
 
-        //Новая вкладка
+
+
+/*        //Новая вкладка
 
         driver.executeScript("window.open('https://temp-mail.org/ru/', 'new_window')");
         Thread.sleep(3000);
 
+ */
         //Попапчик
 
         driver.findElement(By.id("configuration-send")).click(); //Открыть попап
 
         Thread.sleep(2000);
 
-        driver.findElement(By.id("user-email")).sendKeys(); //Написать email
+        String emailSKU = "ma3au.pav@gmail.com";
+
+        driver.findElement(By.id("user-email")).sendKeys(emailSKU); //Написать email
+
+        Thread.sleep(2000);
+
+        driver.findElement(By.linkText("Send")).click();
+
+        Thread.sleep(2000);
+
+
 
 
     }
