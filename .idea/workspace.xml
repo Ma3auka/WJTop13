@@ -4,6 +4,7 @@
     <list default="true" id="05a275cc-9758-4aae-bd37-b988d18c069d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/co/WJ/Top13Specific.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/WJ/Top13Specific.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/co/WJ/Top13Specific.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/co/WJ/Top13Specific.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,8 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/co/WJ/Top13Specific.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="426" lean-forward="true" selection-start-line="426" selection-end-line="426" />
+            <state relative-caret-position="532">
+              <caret line="456" column="8" selection-start-line="456" selection-start-column="8" selection-end-line="456" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,10 +111,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-91" />
-    <option name="y" value="-8" />
+    <option name="x" value="254" />
+    <option name="y" value="362" />
     <option name="width" value="1936" />
-    <option name="height" value="1176" />
+    <option name="height" value="1054" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -351,7 +352,7 @@
       <workItem from="1564497758583" duration="12044000" />
       <workItem from="1564655859598" duration="2604000" />
       <workItem from="1564733423164" duration="494000" />
-      <workItem from="1564737128580" duration="1978000" />
+      <workItem from="1564737128580" duration="9787000" />
     </task>
     <task id="LOCAL-00001" summary="Google test">
       <created>1563462984836</created>
@@ -479,43 +480,50 @@
       <option name="project" value="LOCAL" />
       <updated>1564658872964</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Email Top13">
+      <created>1564739401567</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1564739401568</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Top13Specific_Top13_XC1222K - 2019.08.01 at 14h 24m 12s.xml">
-      <configuration name="Top13Specific.Top13_XC1222K" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Top13Specific_Top13_XC1222K - 2019.08.01 at 14h 26m 48s.xml">
-      <configuration name="Top13Specific.Top13_XC1222K" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Top13Specific - 2019.08.02 at 11h 18m 19s.xml">
-      <configuration name="Top13Specific" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Top13Specific_Top13_Test - 2019.08.02 at 12h 14m 54s.xml">
+    <history-entry file="Top13Specific_Top13_Test - 2019.08.02 at 15h 16m 51s.xml">
       <configuration name="Top13Specific.Top13_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Top13Specific_Top13_Test - 2019.08.02 at 12h 15m 26s.xml">
+    <history-entry file="Top13Specific_Top13_Test - 2019.08.02 at 15h 18m 51s.xml">
       <configuration name="Top13Specific.Top13_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Top13Specific_Top13_Test - 2019.08.02 at 12h 20m 41s.xml">
+    <history-entry file="Top13Specific_Top13_Test - 2019.08.02 at 15h 21m 37s.xml">
       <configuration name="Top13Specific.Top13_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Top13Specific_Top13_Test - 2019.08.02 at 12h 42m 31s.xml">
+    <history-entry file="Top13Specific_Top13_Test - 2019.08.02 at 15h 22m 34s.xml">
       <configuration name="Top13Specific.Top13_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Top13Specific_Top13_Test - 2019.08.02 at 12h 43m 50s.xml">
+    <history-entry file="Top13Specific_Top13_Test - 2019.08.02 at 15h 24m 44s.xml">
       <configuration name="Top13Specific.Top13_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Top13Specific_Top13_Test - 2019.08.02 at 12h 44m 32s.xml">
+    <history-entry file="Top13Specific_Top13_Test - 2019.08.02 at 15h 26m 26s.xml">
       <configuration name="Top13Specific.Top13_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Top13Specific_Top13_Test - 2019.08.02 at 12h 45m 29s.xml">
+    <history-entry file="Top13Specific_Top13_Test - 2019.08.02 at 15h 27m 18s.xml">
+      <configuration name="Top13Specific.Top13_Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Top13Specific_Top13_Test - 2019.08.02 at 15h 27m 55s.xml">
+      <configuration name="Top13Specific.Top13_Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Top13Specific_Top13_Test - 2019.08.02 at 18h 16m 24s.xml">
+      <configuration name="Top13Specific.Top13_Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Top13Specific_Top13_Test - 2019.08.02 at 18h 18m 21s.xml">
       <configuration name="Top13Specific.Top13_Test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126735000" />
+    <option name="totallyTimeSpent" value="134544000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -539,7 +547,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5004794" side_tool="true" weight="0.22334754" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32981783" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49840087" visible="true" weight="0.3729626" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49840087" visible="true" weight="0.3135187" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3988495" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -584,7 +592,8 @@
     <MESSAGE value="Dependency" />
     <MESSAGE value="upt" />
     <MESSAGE value="update maven" />
-    <option name="LAST_COMMIT_MESSAGE" value="update maven" />
+    <MESSAGE value="Email Top13" />
+    <option name="LAST_COMMIT_MESSAGE" value="Email Top13" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/WJTest$JewelTest_Top13.ic" NAME="JewelTest.Top13 Coverage Results" MODIFIED="1562760091366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -704,8 +713,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/co/WJ/Top13Specific.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="426" lean-forward="true" selection-start-line="426" selection-end-line="426" />
+        <state relative-caret-position="532">
+          <caret line="456" column="8" selection-start-line="456" selection-start-column="8" selection-end-line="456" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

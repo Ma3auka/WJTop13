@@ -7,6 +7,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.apache.commons.io.FileUtils;
 
 import java.io.File;
+import java.security.Key;
 import java.util.Random;
 
 public class Top13Specific extends WebDriver {
@@ -446,6 +447,38 @@ public class Top13Specific extends WebDriver {
         System.out.println("- DropDown 7.25");
 
         Thread.sleep(2000);
+
+
+
+
+
+
+
+        //Попапчик
+
+        driver.findElement(By.id("configuration-send")).click();
+
+        Thread.sleep(2000);
+
+        driver.findElement(By.id("user-email")).sendKeys();
+
+
+
+
+
+
+
+
+
+
+
+
+        driver.executeScript("window.open('https://temp-mail.org/ru/', 'new_window')");
+
+        Thread.sleep(3000);
+
+        driver.findElement(By.id("mail")).sendKeys(Keys.CONTROL + "c");
+
 
 
     }
