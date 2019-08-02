@@ -407,38 +407,50 @@ public class Top13Specific extends WebDriver {
 
     }
 
-/*    @Test
+    @Test
     public void Top13_Test() throws Exception { //id 19,20,21,22
 
-        driver.get("https://zales.wonderjewel.co/configurator/XC1061");
+        driver.get("https://www.zales.com/customize-your-vera-wang-love-collection-34-ct-tw-to-212-ct-tw-diamond-cushion-frame-engagement-ring/p/V-20301716?rrec=true");
         String url = driver.getCurrentUrl();
         System.out.println("- Open url: " + url);
 
         String title = driver.getTitle();
         System.out.println("- Title: " + title);
 
-        Assert.assertTrue(title.contains("Build your own ring"));
+        Assert.assertTrue(title.contains("Customize Your Vera Wang Love Collection 3/4 CT. T.W. to 2-1/2 CT. T.W. Diamond Cushion Frame Engagement Ring | Vera Wang LOVE | Zales")); //Проверка title
 
         new Select(driver.findElement(new By.ByName("size"))).selectByVisibleText("1 CT."); //drop-down list
         Select dropdown = new Select(driver.findElement(new By.ByName("size")));
         dropdown.selectByVisibleText("1 CT.");
 
-        Assert.assertEquals(true, By.className("rotate-product"));
+        Thread.sleep(8000);
 
-        if (driver.getPageSource().contains("9,999.99")) {
-            System.out.println("- Cost Done (XC1061 9,999.99)");
+        if (driver.getPageSource().contains("12,374.71")) { //Проверка цены
+            System.out.println("- Cost Done (V-20301716 12,374.71)");
         } else {
-            int number = new Random().nextInt(1000) + 5;
+            int number = new Random().nextInt(1000); //Рандомайзер числа
 
             File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-            FileUtils.copyFile(scrFile, new File("C:\\screenshot\\screenshot" + number + ".png"));
+            FileUtils.copyFile(scrFile, new File("C:\\screenshot\\screenshot" + number + ".png")); //Сдлеать скриншот
 
-            System.out.println("- Screenshot (XC1061 9,999.99)");
+            System.out.println("- Screenshot (V-20301716 12,374.71)");
         }
+
+        JavascriptExecutor jsx = (JavascriptExecutor)driver; //Прокрутка страницы
+        jsx.executeScript("window.scrollBy(0,450)", "");
+
+        new Select(driver.findElement(new By.ByName("ring_size"))).selectByVisibleText("Select Ring Size"); //drop-down list
+        dropdown = new Select(driver.findElement(new By.ByName("ring_size")));
+        dropdown.selectByVisibleText("7.25");
+
+        System.out.println("- DropDown 7.25");
+
+        Thread.sleep(2000);
+
 
     }
 
- */
+
 }
 
 
