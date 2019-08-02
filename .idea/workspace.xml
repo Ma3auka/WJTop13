@@ -4,7 +4,6 @@
     <list default="true" id="05a275cc-9758-4aae-bd37-b988d18c069d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/co/WJ/Top13Specific.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/WJ/Top13Specific.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/co/WJ/Top13Specific.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/co/WJ/Top13Specific.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,8 +50,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/co/WJ/Top13Specific.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="456" column="8" selection-start-line="456" selection-start-column="8" selection-end-line="456" selection-end-column="8" />
+            <state relative-caret-position="375">
+              <caret line="460" lean-forward="true" selection-start-line="460" selection-end-line="460" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -352,7 +351,7 @@
       <workItem from="1564497758583" duration="12044000" />
       <workItem from="1564655859598" duration="2604000" />
       <workItem from="1564733423164" duration="494000" />
-      <workItem from="1564737128580" duration="9787000" />
+      <workItem from="1564737128580" duration="13289000" />
     </task>
     <task id="LOCAL-00001" summary="Google test">
       <created>1563462984836</created>
@@ -487,43 +486,50 @@
       <option name="project" value="LOCAL" />
       <updated>1564739401568</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="NewTab / Pop-up">
+      <created>1564759396890</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1564759396890</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Top13Specific_Top13_Test - 2019.08.02 at 15h 16m 51s.xml">
+    <history-entry file="Top13Specific_Top13_Test - 2019.08.02 at 18h 50m 14s.xml">
       <configuration name="Top13Specific.Top13_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Top13Specific_Top13_Test - 2019.08.02 at 15h 18m 51s.xml">
+    <history-entry file="Top13Specific_Top13_Test - 2019.08.02 at 18h 52m 37s.xml">
       <configuration name="Top13Specific.Top13_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Top13Specific_Top13_Test - 2019.08.02 at 15h 21m 37s.xml">
+    <history-entry file="Top13Specific_Top13_Test - 2019.08.02 at 18h 54m 46s.xml">
       <configuration name="Top13Specific.Top13_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Top13Specific_Top13_Test - 2019.08.02 at 15h 22m 34s.xml">
+    <history-entry file="Top13Specific_Top13_Test - 2019.08.02 at 18h 55m 33s.xml">
       <configuration name="Top13Specific.Top13_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Top13Specific_Top13_Test - 2019.08.02 at 15h 24m 44s.xml">
+    <history-entry file="Top13Specific_Top13_Test - 2019.08.02 at 18h 58m 04s.xml">
       <configuration name="Top13Specific.Top13_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Top13Specific_Top13_Test - 2019.08.02 at 15h 26m 26s.xml">
+    <history-entry file="Top13Specific_Top13_Test - 2019.08.02 at 19h 00m 03s.xml">
       <configuration name="Top13Specific.Top13_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Top13Specific_Top13_Test - 2019.08.02 at 15h 27m 18s.xml">
+    <history-entry file="Top13Specific_Top13_Test - 2019.08.02 at 19h 03m 20s.xml">
       <configuration name="Top13Specific.Top13_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Top13Specific_Top13_Test - 2019.08.02 at 15h 27m 55s.xml">
+    <history-entry file="Top13Specific_Top13_Test - 2019.08.02 at 19h 07m 23s.xml">
       <configuration name="Top13Specific.Top13_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Top13Specific_Top13_Test - 2019.08.02 at 18h 16m 24s.xml">
+    <history-entry file="Top13Specific_Top13_Test - 2019.08.02 at 19h 11m 29s.xml">
       <configuration name="Top13Specific.Top13_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Top13Specific_Top13_Test - 2019.08.02 at 18h 18m 21s.xml">
+    <history-entry file="Top13Specific_Top13_Test - 2019.08.02 at 19h 12m 07s.xml">
       <configuration name="Top13Specific.Top13_Test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134544000" />
+    <option name="totallyTimeSpent" value="138046000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -593,7 +599,8 @@
     <MESSAGE value="upt" />
     <MESSAGE value="update maven" />
     <MESSAGE value="Email Top13" />
-    <option name="LAST_COMMIT_MESSAGE" value="Email Top13" />
+    <MESSAGE value="NewTab / Pop-up" />
+    <option name="LAST_COMMIT_MESSAGE" value="NewTab / Pop-up" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/WJTest$JewelTest_Top13.ic" NAME="JewelTest.Top13 Coverage Results" MODIFIED="1562760091366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -713,8 +720,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/co/WJ/Top13Specific.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="456" column="8" selection-start-line="456" selection-start-column="8" selection-end-line="456" selection-end-column="8" />
+        <state relative-caret-position="375">
+          <caret line="460" lean-forward="true" selection-start-line="460" selection-end-line="460" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
