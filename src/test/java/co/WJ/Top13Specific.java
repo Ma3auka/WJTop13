@@ -9,6 +9,12 @@ import org.apache.commons.io.FileUtils;
 import java.io.File;
 import java.util.Random;
 
+/**
+ * Проверка специальной цена на TOP13
+ * @author Ma3auka
+ * @version 1.0
+ */
+
 public class Top13Specific extends WebDriver {
 
     private String count;
