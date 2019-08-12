@@ -10,7 +10,7 @@ import java.io.File;
 import java.util.Random;
 
 /**
- * Проверка специальной цена на TOP13
+ * Проверка Specific цены на TOP13
  * @author Ma3auka
  * @version 1.0
  */
@@ -31,7 +31,7 @@ public class Top13Specific extends WebDriver {
         System.out.println("- Title: " + title);
         Assert.assertTrue(title.contains("Build your own ring")); //Проверка тайтла
 
-        Thread.sleep(5000);
+        Thread.sleep(5000); // To Do
 
         new Select(driver.findElement(new By.ByName("size"))).selectByVisibleText("1/3 CT."); //Найти выпадающий список
         Select dropdown = new Select(driver.findElement(new By.ByName("size")));
