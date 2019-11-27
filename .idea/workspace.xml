@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05a275cc-9758-4aae-bd37-b988d18c069d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/WJ/Click.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="05a275cc-9758-4aae-bd37-b988d18c069d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -238,7 +233,7 @@
       <workItem from="1565605534563" duration="722000" />
       <workItem from="1565606627912" duration="251000" />
       <workItem from="1574854690369" duration="386000" />
-      <workItem from="1574855156827" duration="5223000" />
+      <workItem from="1574855156827" duration="5718000" />
     </task>
     <task id="LOCAL-00001" summary="Google test">
       <created>1563462984836</created>
@@ -401,7 +396,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565256307048</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Click">
+      <created>1574861264658</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1574861264658</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TodoView">
@@ -450,7 +452,8 @@
     <MESSAGE value="NewTab / Pop-up" />
     <MESSAGE value="class Email&#10;Русский" />
     <MESSAGE value="author&#10;version" />
-    <option name="LAST_COMMIT_MESSAGE" value="author&#10;version" />
+    <MESSAGE value="Click" />
+    <option name="LAST_COMMIT_MESSAGE" value="Click" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
