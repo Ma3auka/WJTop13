@@ -2,16 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05a275cc-9758-4aae-bd37-b988d18c069d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/WJ/Click.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/WJ/Top13Specific.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/WJ/Top13Specific.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/co/WJ/Top13Specific.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/co/WJ/Top13Specific.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -56,12 +70,6 @@
       <GitPushTagMode />
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="23" />
-    <option name="y" value="-18" />
-    <option name="width" value="1936" />
-    <option name="height" value="1054" />
-  </component>
   <component name="ProjectId" id="1PJwUrjTTJbL9Sxlm1s3YADcu0z" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
@@ -78,6 +86,9 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -96,7 +107,70 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Top13Specific">
+  <component name="RunManager" selected="JUnit.Click.Sravni3_Web">
+    <configuration name="Click" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WJTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.WJ.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.WJ" />
+      <option name="MAIN_CLASS_NAME" value="co.WJ.Click" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Click.Sravni" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WJTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.WJ.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.WJ" />
+      <option name="MAIN_CLASS_NAME" value="co.WJ.Click" />
+      <option name="METHOD_NAME" value="Sravni" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Click.Sravni3_Click_Web" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WJTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.WJ.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.WJ" />
+      <option name="MAIN_CLASS_NAME" value="co.WJ.Click" />
+      <option name="METHOD_NAME" value="Sravni3_Click_Web" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Click.Sravni3_Web" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WJTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.WJ.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.WJ" />
+      <option name="MAIN_CLASS_NAME" value="co.WJ.Click" />
+      <option name="METHOD_NAME" value="Sravni3_Web" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Top13Specific" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WJTest" />
       <extension name="coverage">
@@ -112,77 +186,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Top13Specific.Top13_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WJTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="co.WJ.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="co.WJ" />
-      <option name="MAIN_CLASS_NAME" value="co.WJ.Top13Specific" />
-      <option name="METHOD_NAME" value="Top13_Test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Top13Specific.Top13_XC1035P" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WJTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="co.WJ.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="co.WJ" />
-      <option name="MAIN_CLASS_NAME" value="co.WJ.Top13Specific" />
-      <option name="METHOD_NAME" value="Top13_XC1035P" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Top13Specific.Top13_XC1222K" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WJTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="co.WJ.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="co.WJ" />
-      <option name="MAIN_CLASS_NAME" value="co.WJ.Top13Specific" />
-      <option name="METHOD_NAME" value="Top13_XC1222K" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Top13Specific.Top13_XC2192K" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WJTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="co.WJ.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="co.WJ" />
-      <option name="MAIN_CLASS_NAME" value="co.WJ.Top13Specific" />
-      <option name="METHOD_NAME" value="Top13_XC2192K" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Click.Sravni3_Web" />
+        <item itemvalue="JUnit.Click.Sravni3_Click_Web" />
+        <item itemvalue="JUnit.Click" />
+        <item itemvalue="JUnit.Click.Sravni" />
         <item itemvalue="JUnit.Top13Specific" />
-        <item itemvalue="JUnit.Top13Specific.Top13_XC2192K" />
-        <item itemvalue="JUnit.Top13Specific.Top13_Test" />
-        <item itemvalue="JUnit.Top13Specific.Top13_XC1222K" />
-        <item itemvalue="JUnit.Top13Specific.Top13_XC1035P" />
       </list>
     </recent_temporary>
   </component>
@@ -227,6 +237,8 @@
       <workItem from="1565597320123" duration="717000" />
       <workItem from="1565605534563" duration="722000" />
       <workItem from="1565606627912" duration="251000" />
+      <workItem from="1574854690369" duration="386000" />
+      <workItem from="1574855156827" duration="5223000" />
     </task>
     <task id="LOCAL-00001" summary="Google test">
       <created>1563462984836</created>
@@ -439,6 +451,17 @@
     <MESSAGE value="class Email&#10;Русский" />
     <MESSAGE value="author&#10;version" />
     <option name="LAST_COMMIT_MESSAGE" value="author&#10;version" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/co/WJ/Top13Specific.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/WJTest$JewelTest_Top13.ic" NAME="JewelTest.Top13 Coverage Results" MODIFIED="1562760091366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
